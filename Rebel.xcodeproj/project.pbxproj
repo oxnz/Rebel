@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		54A84E8922454F1300C4906E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A84E8822454F1300C4906E /* main.cpp */; };
+		54A84E9122454F3200C4906E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A84E9022454F3200C4906E /* GLUT.framework */; };
+		54A84E9322454F4800C4906E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A84E9222454F4800C4906E /* OpenGL.framework */; };
+		54A84E9622457EE500C4906E /* RobotAlpha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A84E9422457EE500C4906E /* RobotAlpha.cpp */; };
+		54A84E9922457F3500C4906E /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A84E9722457F3500C4906E /* Rect.cpp */; };
+		54A84E9C2245DBC000C4906E /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A84E9A2245DBC000C4906E /* Engine.cpp */; };
+		54A84E9F2245DBCD00C4906E /* RectEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54A84E9D2245DBCD00C4906E /* RectEngine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,17 @@
 /* Begin PBXFileReference section */
 		54A84E8522454F1300C4906E /* Rebel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rebel; sourceTree = BUILT_PRODUCTS_DIR; };
 		54A84E8822454F1300C4906E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		54A84E9022454F3200C4906E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		54A84E9222454F4800C4906E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		54A84E9422457EE500C4906E /* RobotAlpha.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RobotAlpha.cpp; sourceTree = "<group>"; };
+		54A84E9522457EE500C4906E /* RobotAlpha.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RobotAlpha.hpp; sourceTree = "<group>"; };
+		54A84E9722457F3500C4906E /* Rect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rect.cpp; sourceTree = "<group>"; };
+		54A84E9822457F3500C4906E /* Rect.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rect.hpp; sourceTree = "<group>"; };
+		54A84E9A2245DBC000C4906E /* Engine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
+		54A84E9B2245DBC000C4906E /* Engine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Engine.hpp; sourceTree = "<group>"; };
+		54A84E9D2245DBCD00C4906E /* RectEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RectEngine.cpp; sourceTree = "<group>"; };
+		54A84E9E2245DBCD00C4906E /* RectEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RectEngine.hpp; sourceTree = "<group>"; };
+		54F36B45224CC6D000B85CD1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54A84E9322454F4800C4906E /* OpenGL.framework in Frameworks */,
+				54A84E9122454F3200C4906E /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +62,7 @@
 			children = (
 				54A84E8722454F1300C4906E /* Rebel */,
 				54A84E8622454F1300C4906E /* Products */,
+				54A84E8F22454F3200C4906E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +78,26 @@
 			isa = PBXGroup;
 			children = (
 				54A84E8822454F1300C4906E /* main.cpp */,
+				54A84E9722457F3500C4906E /* Rect.cpp */,
+				54A84E9822457F3500C4906E /* Rect.hpp */,
+				54A84E9422457EE500C4906E /* RobotAlpha.cpp */,
+				54A84E9522457EE500C4906E /* RobotAlpha.hpp */,
+				54A84E9A2245DBC000C4906E /* Engine.cpp */,
+				54A84E9B2245DBC000C4906E /* Engine.hpp */,
+				54A84E9D2245DBCD00C4906E /* RectEngine.cpp */,
+				54A84E9E2245DBCD00C4906E /* RectEngine.hpp */,
 			);
 			path = Rebel;
+			sourceTree = "<group>";
+		};
+		54A84E8F22454F3200C4906E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54F36B45224CC6D000B85CD1 /* GLKit.framework */,
+				54A84E9222454F4800C4906E /* OpenGL.framework */,
+				54A84E9022454F3200C4906E /* GLUT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54A84E8922454F1300C4906E /* main.cpp in Sources */,
+				54A84E9C2245DBC000C4906E /* Engine.cpp in Sources */,
+				54A84E9F2245DBCD00C4906E /* RectEngine.cpp in Sources */,
+				54A84E9622457EE500C4906E /* RobotAlpha.cpp in Sources */,
+				54A84E9922457F3500C4906E /* Rect.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +281,7 @@
 		54A84E8D22454F1300C4906E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZMWFKM7PLG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -248,6 +291,7 @@
 		54A84E8E22454F1300C4906E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZMWFKM7PLG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
