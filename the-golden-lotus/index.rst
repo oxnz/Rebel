@@ -1,10 +1,33 @@
-.. jpm documentation master file, created by
+.. the-golden-lotus documentation master file, created by
    sphinx-quickstart on Mon Feb 24 14:33:42 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-jpm documentation
+金瓶梅詞話
 =================
+
+:Authors:
+    Tony J. (Tibs) Ibbs,
+    David Goodger
+    (and sundry other good-natured folks)
+
+:Version: 1.0 of 2001/08/08
+:Dedication: To my father.
+:文本來源: 維基文庫
+:校對參考:
+    《新刻金瓶梅詞話》（明万历四十五年刊本）
+    《金瓶梅詞話》（夢梅館校本）[^1]
+
+use command albatross to find glyph.
+
+
+    albatross -b 3 脸
+
+
+[the-golden-lotus](https://github.com/oxnz/rebel/the-golden-lotus)
+
+[^1]: https://www.broadread.com/fiction/jinpingmei
+
 
 Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
@@ -16,105 +39,104 @@ documentation for details.
    :caption: Contents:
 
 
-   000
-   001.md
-   002.md
-   003.md
-   004.md
-   005.md
-   006.md
-   007.md
-   008.md
-   009.md
-   010.md
-   011.md
-   012.md
-   013.md
-   014.md
-   015.md
-   016.md
-   017.md
-   018.md
-   019.md
-   020.md
-   021.md
-   022.md
-   023.md
-   024.md
-   025.md
-   026.md
-   027.md
-   028.md
-   029.md
-   030.md
-   031.md
-   032.md
-   033.md
-   034.md
-   035.md
-   036.md
-   037.md
-   038.md
-   039.md
-   040.md
-   041.md
-   042.md
-   043.md
-   044.md
-   045.md
-   046.md
-   047.md
-   048.md
-   049.md
-   050.md
-   051.md
-   052.md
-   053.md
-   054.md
-   055.md
-   056.md
-   057.md
-   058.md
-   059.md
-   060.md
-   061.md
-   062.md
-   063.md
-   064.md
-   065.md
-   066.md
-   067.md
-   068.md
-   069.md
-   070.md
-   071.md
-   072.md
-   073.md
-   074.md
-   075.md
-   076.md
-   077.md
-   078.md
-   079.md
-   080.md
-   081.md
-   082.md
-   083.md
-   084.md
-   085.md
-   086.md
-   087.md
-   088.md
-   089.md
-   090.md
-   091.md
-   092.md
-   093.md
-   094.md
-   095.md
-   096.md
-   097.md
-   098.md
-   099.md
-   100.md
+   001
+   002
+   003
+   004
+   005
+   006
+   007
+   008
+   009
+   010
+   011
+   012
+   013
+   014
+   015
+   016
+   017
+   018
+   019
+   020
+   021
+   022
+   023
+   024
+   025
+   026
+   027
+   028
+   029
+   030
+   031
+   032
+   033
+   034
+   035
+   036
+   037
+   038
+   039
+   040
+   041
+   042
+   043
+   044
+   045
+   046
+   047
+   048
+   049
+   050
+   051
+   052
+   053
+   054
+   055
+   056
+   057
+   058
+   059
+   060
+   061
+   062
+   063
+   064
+   065
+   066
+   067
+   068
+   069
+   070
+   071
+   072
+   073
+   074
+   075
+   076
+   077
+   078
+   079
+   080
+   081
+   082
+   083
+   084
+   085
+   086
+   087
+   088
+   089
+   090
+   091
+   092
+   093
+   094
+   095
+   096
+   097
+   098
+   099
+   100
 

@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'The Golden Lotus'
+project = '金瓶梅詞話'
 copyright = '2025, oxnz'
-author = 'Lanling Xiaoxiao Sheng'
+author = '蘭陵笑笑生'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
