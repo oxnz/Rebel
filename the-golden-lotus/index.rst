@@ -16,7 +16,7 @@ documentation for details.
    :caption: Contents:
 
 
-   000.md
+   000
    001.md
    002.md
    003.md
